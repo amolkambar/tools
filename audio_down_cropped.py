@@ -11,11 +11,11 @@ import threading
 import concurrent.futures
 
 # ------------------Download--------------------------
-folder_name=input("Input Folder name for the files: ")
-os.mkdir(folder_name)
 
-playlist_url = input("Paste Playlist URL: ")
+playlist_url = input("Yeet Playlist URL: ")
 ids = Playlist(playlist_url)
+folder_name = ids.title
+os.mkdir(folder_name)
 
 start_time = time.time()
 

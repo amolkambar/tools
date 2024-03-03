@@ -1,3 +1,5 @@
+#!/bin/bash
+
 adb uninstall --user 0 com.google.chrome
 adb uninstall --user 0 com.facebook.appmanager
 adb uninstall --user 0 com.google.chrome

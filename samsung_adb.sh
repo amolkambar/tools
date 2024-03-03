@@ -33,3 +33,4 @@ adb uninstall --user 0 com.google.android.apps.messaging
 adb uninstall --user 0 com.sec.spp.push
 adb uninstall --user 0 com.samsung.android.ardrawing
 adb uninstall --user 0 com.samsung.android.visionintelligence
+abd uninstall --user 0 com.facebook.katana
